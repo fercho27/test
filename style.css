@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'LikesFont';
-    src:    url('fonts/LikesFont.eot?anejuj');
-    src:    url('fonts/LikesFont.eot?anejuj#iefix') format('embedded-opentype'),
+    src:    url('https://github.com/fercho27/test/raw/master/fonts/LikesFont.eot?anejuj');
+    src:    url('https://github.com/fercho27/test/raw/master/fonts/LikesFont.eot?anejuj#iefix') format('embedded-opentype'),
         url('fonts/LikesFont.ttf?anejuj') format('truetype'),
         url('fonts/LikesFont.woff?anejuj') format('woff'),
-        url('fonts/LikesFont.svg?anejuj#LikesFont') format('svg');
+        url('https://raw.githubusercontent.com/fercho27/test/master/fonts/LikesFont.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 }
