@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'LikesFont';
+    src:    url('fonts/LikesFont.eot?anejuj');
+    src:    url('fonts/LikesFont.eot?anejuj#iefix') format('embedded-opentype'),
+        url('fonts/LikesFont.ttf?anejuj') format('truetype'),
+        url('fonts/LikesFont.woff?anejuj') format('woff'),
+        url('fonts/LikesFont.svg?anejuj#LikesFont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'LikesFont' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-backArrow:before {
+    content: "\e900";
+}
+.icon-like:before {
+    content: "\e901";
+}
+.icon-nextArrow:before {
+    content: "\e902";
+}
+.icon-reBlog:before {
+    content: "\e903";
+}
